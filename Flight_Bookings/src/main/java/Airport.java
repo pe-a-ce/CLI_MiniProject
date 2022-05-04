@@ -26,7 +26,13 @@ public class Airport {
 
     public void addFlight(Destination destination, int flightId) {
         allFlights.add(new Flight (destination, flightId));
-
     }
 
+
+    @Override
+    public String toString() {
+        return "Airport{" +
+                "allFlights=" + allFlights +
+                '}';
+    }
 }

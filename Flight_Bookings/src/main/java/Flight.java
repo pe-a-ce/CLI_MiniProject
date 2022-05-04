@@ -58,4 +58,12 @@ public class Flight {
         this.passengers.remove(passenger);
     }
 
+    @Override
+    public String toString() {
+        return "Flight{" +
+                "destination=" + destination +
+                ", flightId=" + flightId +
+                ", passengers=" + passengers +
+                '}';
+    }
 }
