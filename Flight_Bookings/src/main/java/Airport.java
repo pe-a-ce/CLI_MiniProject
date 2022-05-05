@@ -28,6 +28,8 @@ public class Airport {
         allFlights.add(new Flight (destination, flightId));
     }
 
+    public void removeFlight(Flight flight){allFlights.remove(flight);}
+
 
     @Override
     public String toString() {
